@@ -2,6 +2,7 @@
 const Stepper =({text, steps, setSteps})=>{
 
     function handleDecrement() {
+        if (steps > 1)
         setSteps((steps) => steps - 1);
     };
 

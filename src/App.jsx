@@ -5,7 +5,7 @@ import DateCounter from './components/DateCounter'
 
 
 const App =()=> (
-    <div className='min-h-dvh gap-30 flex flex-col justify-center items-center'>
+    <div className='px-5 min-h-dvh gap-30 flex flex-col justify-center items-center'>
         <section className='flex gap-20'>
           <img className='h-30 '
             src={reactLogo} alt='react-logo' 

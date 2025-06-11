@@ -1,7 +1,7 @@
 const TodayReset = ({setCounts, setSteps})=> {
     function handleReset(){
         setCounts(0)
-        setSteps(0)
+        setSteps(1)
     };
     return (
         <button 

@@ -6,7 +6,7 @@ import TodayReset from "./TodayReset";
 
 export default function DateCounter () {
     const [counts, setCounts] = useState(0);
-    const [steps, setSteps] = useState(0);
+    const [steps, setSteps] = useState(1);
     
 
     return (
