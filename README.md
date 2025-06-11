@@ -7,15 +7,15 @@ This is a simple and visually appealing React application created using **Vite**
 
 ## 🎯 Button Functions
 
-### 🔢 `Steps` Counter
+### `Steps` Counter
 - ➕ **Plus Button**: Increments the **Steps** count by 1
 - ➖ **Minus Button**: Decrements the **Steps** count by 1
 
-### 🔢 `Count` Counter
+### `Count` Counter
 - ➕ **Plus Button**: Increments the **Count** by 1
 - ➖ **Minus Button**: Decrements the **Count** by 1
 
-### 🟡 `TODAY` Button
+### `TODAY` Button
 - Resets both `Steps` and `Count` to **0**
 - Optionally resets the date to **today’s date** (if you implemented date changes)
 
@@ -55,11 +55,6 @@ npm run dev
 ```
 
 Visit: `http://localhost:5173`
-
----
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
