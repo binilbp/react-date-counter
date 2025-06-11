@@ -9,10 +9,6 @@ const Counter =({text, steps, counts, setCounts})=>{
     };
 
     return (
-    <div className="flex flex-col justify-center items-center">
-        <div className="text-2xl font-mono font-extrabold text-center w-15 py-2 text-black bg-cyan-300 inset-shadow-sm/80 ">{counts}</div>
-
-
         <div className="flex justify-around items-center gap-5">
             <button 
                 className="text-2xl font-bold bg-neutral-900 h-15 w-15 rounded-full "
@@ -20,11 +16,7 @@ const Counter =({text, steps, counts, setCounts})=>{
             >
                 -
             </button> 
-            <span 
-                className="text-2xl  p-5 text-yellow-400"
-            >
-                {text}
-            </span>
+            <div className="text-1.5xl rounded-md font-mono font-extrabold text-center w-30 py-2 text-white inset-shadow-sm/80 ">Count: {counts}</div>
             <button 
                 className="text-2xl font-bold bg-neutral-900 h-15 w-15 rounded-full "
                 onClick={handleIncrement}
@@ -32,7 +24,6 @@ const Counter =({text, steps, counts, setCounts})=>{
                 +
             </button> 
         </div>
-    </div>);
-};
+)};
 
 export default Counter;

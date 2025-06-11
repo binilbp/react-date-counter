@@ -5,12 +5,12 @@ import DateCounter from './components/DateCounter'
 
 
 const App =()=> (
-    <div className='px-5 min-h-dvh gap-30 flex flex-col justify-center items-center'>
+    <div className='py-20 min-h-dvh gap-20 flex flex-col justify-center items-center'>
         <section className='flex gap-20'>
-          <img className='h-30 '
+          <img className='h-15 '
             src={reactLogo} alt='react-logo' 
           />
-          <img className='h-30'
+          <img className='h-15'
             src={viteLogo} alt='vite-logo' 
           />
         </section>
