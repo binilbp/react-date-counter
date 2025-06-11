@@ -1,12 +1,70 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧮 Date Counter App
 
-Currently, two official plugins are available:
+This is a simple and visually appealing React application created using **Vite** and styled with **Tailwind CSS**. It features two interactive counters and a reset button, along with a dynamic date display.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Button Functions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔢 `Steps` Counter
+- ➕ **Plus Button**: Increments the **Steps** count by 1
+- ➖ **Minus Button**: Decrements the **Steps** count by 1
+
+### 🔢 `Count` Counter
+- ➕ **Plus Button**: Increments the **Count** by 1
+- ➖ **Minus Button**: Decrements the **Count** by 1
+
+### 🟡 `TODAY` Button
+- Resets both `Steps` and `Count` to **0**
+- Optionally resets the date to **today’s date** (if you implemented date changes)
+
+---
+
+## 🧱 Tech Stack
+
+- ⚛️ [React](https://reactjs.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 🖼️ Preview
+
+![ App Preview](./img/DateCounterAppScreenshot.png)  
+
+---
+
+## 🛠️ Setup Instructions
+
+### 🔧 Install
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/react-vite-counter.git
+cd react-vite-counter
+
+# Install dependencies
+npm install
+```
+
+### 🚀 Run the App
+
+```bash
+npm run dev
+```
+
+Visit: `http://localhost:5173`
+
+---
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- React Logo from [reactjs.org](https://reactjs.org/)
+- Vite Logo from [vitejs.dev](https://vitejs.dev/)
+- Styling by [Tailwind CSS](https://tailwindcss.com/)
