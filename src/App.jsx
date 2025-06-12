@@ -6,8 +6,8 @@ import DateCounter from './components/DateCounter'
 
 
 const App =()=> (
-    <div className='py-20 min-h-dvh gap-20 flex flex-col justify-center items-center'>
-        <section className='flex gap-20'>
+    <div className='py-20 px-8 min-h-dvh gap-20 flex flex-col justify-center items-center'>
+        <section className='flex flex-wrap justify-center items-center gap-5'>
           <img className='h-15 '
             src={reactLogo} alt='react-logo' 
           />
@@ -20,10 +20,10 @@ const App =()=> (
 
         </section>
         <section>
-          <h2 className='text-2xl text-center font-mono font-bold'>Date Counter</h2>
-          <p className='text-center font-mono'>Count + to advances the date by the current Steps</p>
-          <p className='text-center font-mono'>Count - to go back the date by the current Steps</p>
-          <p className='text-center font-mono'>TODAY resets the date to today</p>
+          <h2 className='text-2xl text-center font-mono font-extrabold'>Date Counter</h2>
+          <p className='text-sm text-center font-mono'>Count + to advances the date by the current Steps</p>
+          <p className='text-sm text-center font-mono'>Count - to go back the date by the current Steps</p>
+          <p className='text-sm text-center font-mono'>TODAY resets the date to today</p>
 
         </section>
 
